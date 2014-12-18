@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Acquia Certification and my experiences</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Acquia Certification</h1>
+					<h3>My experience</h3>
+				</section>
+
+        <section>
+          <section>
+            <h3>This year Acquia introduced a certification programme</h3>
+            <img src="images/cert-badge-2015.png" alt="Acquia Certification"/>
+          </section>
+
+          <section>
+            <h2>There are now 2 track</h2>
+            <h3>And 3 exams to choose from</h3>
+
+            <div>
+              <img src="images/cert-track-pro2.png" alt="Drupal pro"/>
+              <img src="images/cert-track-specialist2.png" alt="Drupal specialist"/>
+            </div>
+
+            <ul>
+              <li>Drupal Core</li>
+              <li>Front end specialist</li>
+              <li>Back end specialist</li>
+            </ul>
+          </section>
+        </section>
+
+        <section>
+          <h3>I did the Drupal Core certification</h3>
+          <p>&nbsp;</p>
+          <table width="100%">
+            <tr>
+              <td>1.0 Fundamental Web Concepts</td>
+              <td>13%</td>
+            </tr>
+
+            <tr>
+              <td>2.0 Site Building
+              <td>27%</td>
+            </tr>
+
+            <tr>
+              <td>3.0 Front end development (theming)</td>
+              <td>25%</td>
+            </tr>
+
+            <tr>
+              <td>4.0 Back end development (coding)</td>
+              <td>35%</td>
+            </tr>
+          </table>
+          <p>&nbsp;</p>
+          <p>Pass mark: <strong>65%</strong></p>
+        </section>
+
+
+        <section>
+          <section>
+            <h3>Fundamental Web Development Concepts</h3>
+            <ol>
+              <li>Demonstrate knowledge of HTML and CSS</li>
+              <li>Identify PHP programing concepts</li>
+              <li>Identify JavaScript and jQuery programing concepts</li>
+              <li>Demonstrate the use of Git for version control</li>
+            </ol>
+          </section>
+
+          <section>
+            <p class="question">You are building a solution in PHP using object orientated methodologies. You want to be able to create variations of a base class and the base class should never be instantiated. What do you do?</p>
+            <ol>
+              <li>Create an abstract base class and extend it with each variation.</li>
+              <li>Create an interface base class and extend it with each variation.</li>
+              <li>Create an individual class for each variation.</li>
+              <li>Write the functionality using procedural programming in individual files and include them when necessary.</li>
+            </ol>
+          </section>
+
+          <section>
+            <p class="question">There are some lines in custom code that are causing an issue. The code is version controlled with Git.<br />
+            You want to figure out who wrote the lines of offending code. How do you it?</p>
+            <ol>
+              <li>Use the git log command and view who last committed to the file.</li>
+              <li>Use the git log command with the grep option to search for the offending lines of code.</li>
+              <li>Use the git blame command and view the user who committed the lines.</li>
+              <li>Send an email to the team to ask who added the offending lines of code.</li>
+            </ol>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h3>Site Building</h3>
+
+            <ol>
+              <li>Demonstrate ability to create and configure Content Types with appropriate fields and field settings for building basic data structures</li>
+              <li>Demonstrate ability to configure field display and view modes for content types</li>
+              <li>Demonstrate ability to create and use Taxonomy vocabularies and terms for classification and organization of content</li>
+              <li>Demonstrate ability to configure Blocks for building layouts from information widgets</li>
+              <li>Demonstrate ability to build main and alternative navigation systems by using Menus</li>
+              <li>Demonstrate ability to create and configure Views for building content list pages, blocks and feeds</li>
+            </ol>
+          </section>
+
+          <section>
+            <p class="question">You have 2 content types Blog and Article, an image field is used on both.<br/>
+            The site administrator wants to remove the image field from the Article content type.<br />
+            Which statement below is true?</p>
+            <p>&nbsp;</p>
+            <ol>
+              <li>Deleting the field instance on the Article content type won't affect Blog node content.</li>
+              <li>You cannot delete a field once it has stored data.</li>
+              <li>Delete the field instance will remove it from both the Article and Blog content types.</li>
+              <li>Deleting the Article field instance will only affect new Article nodes, the old nodes will still display the field.</li>
+            </ol>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h3>Front end development (theming)</h3>
+
+            <ol>
+              <li>Given a scenario, demonstrate ability to create a custom theme or sub theme</li>
+              <li>Demonstrate knowledge of theming concepts</li>
+              <li>Demonstrate ability to build or override PHP templates for defining layout content</li>
+              <li>Demonstrate ability to use theme () functions for overriding custom output</li>
+              <li>Demonstrate ability to write template pre-process functions for overriding custom output</li>
+            </ol>
+          </section>
+
+          <section>
+            <p class="question">You have a content type Blog. The client wants a page displaying a Views list of the 10 most recently created Blog nodes. The list must display a stripped down version of the full Blog node. Which one of the following solutions should you use?</p>
+            <ol>
+              <li>Copy the views template files into the theme and update them to strip out the desired fields.</li>
+              <li>Use the views display format to display the full Blog content then update the node template file to check for the current page to display the stripped down content.</li>
+              <li>Use the fields display format in Views to select only the fields to display.</li>
+              <li>Configure the teaser display mode for the Blog content type and update the views display format to use the new display mode.</li>
+            </ol>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h3>Domain 4.0: Back end development (coding)</h3>
+
+            <ol>
+              <li>Demonstrate ability to develop Custom Modules using Drupal API for extending Drupal functionality</li>
+              <li>Demonstrate ability to work with Drupal's Database Abstraction Layer for managing tables and CRUD operations on data</li>
+              <li>Demonstrate ability to debug code and troubleshoot site problems</li>
+              <li>Demonstrate ability to write code using Drupal Coding Standards</li>
+              <li>Demonstrate ability to analyze and resolve site performance issues arising from site configuration and custom code</li>
+              <li>Demonstrate ability to analyze and resolve security issues arising from site configuration and custom code</li>
+            </ol>
+          </section>
+
+          <section>
+            <p class="question">You are working on a client website. A custom module; key_data has been developed and needs to be updated. A new table required to store additional meta data. The module is already live, how do you update it?</p>
+
+            <ol>
+              <li>Implement key_meta_data_install() to specify the new table schema. Deploy the changes and run update.php on the site.</li>
+              <li>Update the function key_meta_data_schema() implementation with the new table definition, write the function key_meta_data_update_N() that calls the function drupal_install_schema(). Deploy the changes and run update.php on the site.</li>
+              <li>Update the existing function key_data_schema() with the new table definition. Implement key_data_update_N() and call the function db_create_table(). Deploy the changes and run update.php</li>
+              <li>Log into mysql on the live server and run the relevant commands to create the new table.</li>
+            </ol>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>I Passed!</h2>
+          </section>
+
+          <section>
+            <h3>Break it down!</h3>
+            <p>Overall Score: <strong>81%</strong></p>
+            <p>Topic Level Scoring:</p>
+            <ul>
+              <li>Section 1 - Fundamental Web Development Concepts: <strong>87%</strong></li>
+              <li>Section 2 - Site Building: <strong>87%</strong></li>
+              <li>Section 3 - Front end development (Theming) : <strong>85%</strong></li>
+              <li>Section 4 - Back end development (Coding) : <strong>72%</strong></li>
+            </ul>
+
+            <p>Result: Pass</p>
+          </section>
+        </section>
+
+        <section>
+          <h3>My thoughts</h3>
+          <ul>
+            <li>Fair (ish).</li>
+            <li>Is a good measure of Drupal experiences and best practice.</li>
+            <li>Is weighted quite heavily on backend</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>How to revise</h3>
+          <p>Read Tanay Sai's blog - <strong>http://www.tanay.co.in/</strong></p>
+          <p>Read the Drupal documentation</p>
+          <p>Role play and create</p>
+        </section>
+
+        <section>
+          <h3>How to take the exam</h3>
+          <p>Read through the questions and answers carefully.</p>
+          <p>Mark questions for review that you are unsure on.</p>
+          <p>Use the power of deduction.</p>
+        </section>
+
+        <section>
+          <h2>Thanks</h2>
+        </section>
+      </div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+        width: 1400,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+//				Parallax scrolling
+//				parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+//				parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
